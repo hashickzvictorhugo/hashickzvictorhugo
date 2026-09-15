@@ -1,0 +1,43 @@
+<svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071526"/>
+      <stop offset="0.55" stop-color="#0A2235"/>
+      <stop offset="1" stop-color="#07363D"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="250" y1="120" x2="900" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#54E6D8"/>
+      <stop offset="1" stop-color="#1DB9E8"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="340" rx="28" fill="url(#bg)"/>
+  <circle cx="1090" cy="-30" r="230" stroke="#1EC8D2" stroke-opacity="0.18" stroke-width="2"/>
+  <circle cx="80" cy="340" r="260" stroke="#2E9FD1" stroke-opacity="0.13" stroke-width="2"/>
+  <path d="M0 280C150 240 210 315 360 270C500 228 560 300 730 264C870 235 950 275 1200 220V340H0V280Z" fill="#06111E" fill-opacity="0.78"/>
+  <path d="M0 304C170 270 260 330 390 294C555 248 620 324 790 284C940 249 1040 285 1200 250" stroke="#20C9D5" stroke-opacity="0.22" stroke-width="2"/>
+
+  <g transform="translate(78 70)">
+    <text x="0" y="0" fill="#8EA7B6" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" letter-spacing="6">VICTOR HUGO DURÃES ALVES</text>
+    <text x="0" y="76" fill="#F4F8FB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="54" font-weight="700">Full Stack em formação</text>
+    <text x="0" y="128" fill="url(#accent)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="30" font-weight="650">GTI — FATEC • React • TypeScript • Cloudflare</text>
+    <text x="0" y="178" fill="#B7CBD6" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">Transformando processos em sistemas úteis, seguros e bem documentados.</text>
+
+    <g transform="translate(0 212)">
+      <rect width="390" height="48" rx="24" fill="#0B2B35" stroke="#39D9CF" stroke-opacity="0.8"/>
+      <circle cx="24" cy="24" r="7" fill="#42E6A4" filter="url(#glow)"/>
+      <text x="44" y="31" fill="#E9F6F8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="600">Disponível para estágio, júnior e freelas</text>
+    </g>
+  </g>
+
+  <g transform="translate(930 104)" opacity="0.9">
+    <rect width="186" height="116" rx="18" fill="#0A1F2E" stroke="#2CD5D0" stroke-opacity="0.35"/>
+    <text x="22" y="34" fill="#5EE7DA" font-family="Consolas,monospace" font-size="15">const focus =</text>
+    <text x="22" y="58" fill="#D7EEF1" font-family="Consolas,monospace" font-size="15">["produto",</text>
+    <text x="22" y="80" fill="#D7EEF1" font-family="Consolas,monospace" font-size="15"> "backend",</text>
+    <text x="22" y="102" fill="#D7EEF1" font-family="Consolas,monospace" font-size="15"> "qualidade"];</text>
+  </g>
+</svg>
